@@ -1,0 +1,4 @@
+graphical_culture = west_eastern_european_gfx
+graphical_culture_2d = west_eastern_european_2d
+
+color = { 0 201 204 }

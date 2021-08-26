@@ -1,0 +1,55 @@
+on_actions = {
+	on_daily_NOV = {
+		effect = {
+			if = {
+				limit = { NOV = { is_subject_of = SWE } }
+				set_cosmetic_tag = NOV_SWE
+			}
+		}
+	}
+
+	on_daily_NOV = {
+		effect = {
+			if = {
+				limit = { NOT = { NOV = { is_subject_of = SWE } } }
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+
+	on_daily_BAL = {
+		effect = {
+			if = {
+				limit = { BAL = { is_subject_of = SWE } }
+				set_cosmetic_tag = BAL_SWE
+			}
+		}
+	}
+
+	on_daily_BAL = {
+		effect = {
+			if = {
+				limit = { NOT = { BAL = { is_subject_of = SWE } } }
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+
+	on_daily_FIN = {
+		effect = {
+			if = {
+				limit = { FIN = { is_subject_of = SWE } }
+				set_cosmetic_tag = FIN_SWE
+			}
+		}
+	}
+
+	on_daily_FIN = {
+		effect = {
+			if = {
+				limit = { NOT = { FIN = { is_subject_of = SWE } } }
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+}
